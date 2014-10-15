@@ -1,0 +1,10 @@
+Author: Frankie Gauthier
+CS3790 Assignment 2
+
+-This program is intended to receive a file as input and output the unique words as well as their frequency.
+
+-Type "make" in the command line in the CS3790Assign2 directory to compile and link the program.
+
+-Type ./dictionary < data.dat where "data.dat" is the name of the file you wish to process or just use data.dat to run the program on the example file.
+
+-To clone this repository type:  "git clone https://github.com/frgauthi/CS3790Assign2.git"
