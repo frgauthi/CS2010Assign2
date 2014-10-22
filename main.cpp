@@ -18,7 +18,6 @@ int pos = 0;
        else
            if (!InsertWord(dictionary,word)) cout << "dictionary full " << word << " cannot be added\n";
     }
-  cout << "this > zed " << (dictionary[0] > "zed" );
     return 0;
 }
 

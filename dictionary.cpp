@@ -11,7 +11,7 @@ using std::string;
 
 
 // max number of words for the dictionary type
-#define MAX 100
+#define MAX 10
 
 
 //define a bool type a word type and a DICT type
@@ -30,13 +30,10 @@ BOOL wordCompare(WORD first,WORD second);
 void quickSort(DICT, int, int);
 void sortDict(DICT);
 
-#ifndef globals
-#define globals
 DICT dictionary;  //your dictionary 
 WORD word;        // 
 int count[MAX];   //tracks word frequencies
 int NEXT = 0;	// points to next available spot in the dictionary
-#endif
 
 
 
