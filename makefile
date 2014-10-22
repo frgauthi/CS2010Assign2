@@ -1,6 +1,6 @@
-BIN = main
+BIN = dictionary
 cc = g++
-OBJ = main.o
+OBJ = main.o 
 
 $(BIN): $(OBJ)
 	$(cc) $(OBJ) -o $(BIN)
