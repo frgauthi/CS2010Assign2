@@ -1,3 +1,11 @@
+//Author: Frankie Gauthier
+//Class:  CS2010
+//Assign2
+
+// this file provides the functions and declarations necessary for the dictionary
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,7 +19,7 @@ using std::string;
 
 
 // max number of words for the dictionary type
-#define MAX 10
+#define MAX 20
 
 
 //define a bool type a word type and a DICT type
@@ -66,7 +74,7 @@ void DumpDictionary(DICT dict, int count[]) {
 	sortDict(dict);
 	cout << "\nWord\t\tFrequency\n--------------------------\n";	 
 	for (int i = 0; i<(NEXT); i++ ){
-                cout << dict[i]  << "\t\t" << count[i] << endl;
+                cout << dict[i]  << "\t\t\t" << count[i] << endl;
         }
 	cout << endl;
 }
@@ -164,7 +172,7 @@ void quickSort(DICT dict, int left, int right){
 	WORD tmpWord;
 	WORD pivot = dict[pivotLoc];
 	
-	while(lPtr <= rPtr){
+	while(lPtr < rPtr){
 
 		// move left and right pointers until a value is found on the wrong side of the pivot
 		while(dict[lPtr] < pivot) lPtr++;

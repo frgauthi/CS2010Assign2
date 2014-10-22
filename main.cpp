@@ -1,3 +1,11 @@
+//Author: Frankie Gauthier
+//Class:  CS2010
+//Assign2
+
+//This file contains the main function of the dictionary program
+
+
+
 #include "dictionary.cpp"
 
 int main (void) {
